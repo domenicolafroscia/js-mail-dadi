@@ -19,6 +19,8 @@ document.querySelector('#genera').addEventListener('click', function () {
         message = "Il vincitore è il PC."
     }
 
+    console.log(message);
+
     // Output
     document.getElementById("message").innerHTML = message;
 });
